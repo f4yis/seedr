@@ -189,8 +189,6 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-var PORT = process.env.PORT | 3000;
-
 var router = express.Router();
 
 
