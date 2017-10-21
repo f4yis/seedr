@@ -1,0 +1,89 @@
+[{
+	"name": "rice",
+	"temp": 28,
+	"rain": 75,
+	"wind": 0.6,
+	"hum": 85,
+	"img": "img/rice.jpg",
+	"des": "Rice is a crop that can be cultivated in large areas"
+
+}, {
+	"name": "orange",
+	"temp": 20,
+	"rain": 60,
+	"wind": 1.3,
+	"hum": 86,
+	"img": "img/orange.jpg",
+	"des": "Orange is a fruit that is cultivated in the short areas"
+}, {
+	"name": "banana",
+	"temp": 30,
+	"rain": 90,
+	"wind": 0.5,
+	"hum": 83,
+	"img": "img/banana.jpg",
+	"des": "Banana can be cultivated in large area,needs a lot of care for getting a good yield"
+}, {
+	"name": "apple",
+	"temp": 23,
+	"rain": 80,
+	"wind": 1,
+	"img": "img/apple.jpg",
+	"hum": 85,
+	"des": "Apples are widely cultivated fruit in a area with good whether condition"
+
+}, {
+	"name": "rubber",
+	"temp": 27,
+	"rain": 100,
+	"wind": 2,
+	"hum": 86,
+	"img": "img/rubber.jpg",
+	"des": "Rubber can be cultivated in hilly areas "
+
+}, {
+	"name": "tapioca",
+	"temp": 35,
+	"rain": 50,
+	"wind": 0.8,
+	"hum": 82,
+	"img": "img/tapioca.jpg",
+	"des": "Tapioca is a crop that can be cultivated easily in almost all kind of places"
+
+}, {
+	"name": "carrot",
+	"temp": 18,
+	"rain": 80,
+	"wind": 2.4,
+	"hum": 87,
+	"img": "img/carrot.jpg",
+	"des": "Carrot is a mnajor sourse of many mineral "
+
+}, {
+	"name": "wheat",
+	"temp": 25,
+	"rain": 75,
+	"wind": 1,
+	"hum": 81,
+	"img": "img/wheat.jpg",
+	"des": "Wheat is a crop that have a huge variety based on the palce we are planning to cultivated"
+
+}, {
+	"name": "sugarcane",
+	"temp": 26,
+	"rain": 150,
+	"wind": 0.9,
+	"hum": 84,
+	"img": "img/sugarcane.jpg",
+	"des": "Sugarcane is a plant that widely used for making sugar & also good for preventing cancer in human"
+
+}, {
+	"name": "corn",
+	"temp": 40,
+	"rain": 50,
+	"wind": 1,
+	"hum": 81,
+	"img": "img/corn.jpg",
+	"des": "Corn is a plant also known as maze,which promote eye health and has many varieties"
+
+}]

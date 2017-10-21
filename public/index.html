@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seed - Start the Seeding</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<img id="logo" src="img/logo.png"/>
+					<div class="form-overlay">
+						<form action="/search" method="post">
+						  <div class="form-group">
+						    <label for="place">Place</label>
+						    <input type="text" class="form-control" id="place" name="place" placeholder="Place">
+						  </div>
+						  <div class="form-group">
+						    <label for="area">Area to Cultivate</label>
+						    <input type="text" class="form-control" id="area" name="area" placeholder="Area In acer">
+						  </div>
+						  <div class="form-group">
+						    <label for="crop">Crop</label>
+						    <input type="text" class="form-control" id="crop" name="crop" placeholder="Crop you prefer">
+						  </div>
+						  <div class="form-group">
+						    <label for="phone">Phone</label>
+						    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number Which have Telegram">
+						  </div>
+							<div class="checkbox">
+						    <label>
+						      <input id="loan" name="loan" type="checkbox"> Loan Needed?
+						    </label>
+						  </div>
+						  <button type="submit" class="btn btn-success btn-block">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

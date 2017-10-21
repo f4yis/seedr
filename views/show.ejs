@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seed - Start the Seeding</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<a href="/">
+					<img id="logo" src="img/logo.png"/></a>
+					<div class="form-overlay content">
+						<img id="imgg" src=<%= img %> alt=<%= crop %>>
+						<h2>We Recommend <b><%= crop %></b>.</h2>
+						<div>
+							<p>Your Location Have <b><%= temp %></b> &#8451; <i class="fa fa-thermometer" style="color: red" aria-hidden="true"></i></b></p>
+							<p>Wind Flow of <b><%= wind %></b> KMP <i class="fa fa-yelp" style="color: gray" aria-hidden="true"></i></b></p>
+							<p>and Humidity of <b><%= hum %></b> <i class="fa fa-snowflake-o" style="color: orange" aria-hidden="true"></i></b></p>
+						</div>
+						<p><%= des %></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
