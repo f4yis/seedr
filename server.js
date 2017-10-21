@@ -7,7 +7,7 @@ var contents = fs.readFileSync("data.json");
 var jsonC = JSON.parse(contents);
 var axios = require('axios')
 //console.log(jsonC);
-cont PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
