@@ -7,11 +7,21 @@ var contents = fs.readFileSync("data.json");
 var jsonC = JSON.parse(contents);
 var axios = require('axios')
 //console.log(jsonC);
-
+cont PORT = process.env.PORT || 3000;
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
+});
+
+
+//middleware for Heroku
+app.use((req, res, next) => {
+	if(req.headers['x-forwarded-proto'] === 'https'){
+		res.redirect('http://' + req.hostname + req.url);
+	}else{
+		next();
+	}
 });
 
 const URL = 'http://api.openweathermap.org/data/2.5/weather?APPID=a7aa45e4ec0a5d575dfe8c723f023479&units=metric';
@@ -243,6 +253,6 @@ var search = (req, res, da = {}) => {
 
 app.use('/', router);
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
 	console.log("Running on port 3000");
 });
