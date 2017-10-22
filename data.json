@@ -17,7 +17,7 @@
 	"des": "Orange is a fruit that is cultivated in the short areas"
 }, {
 	"name": "banana",
-	"temp": 30,
+	"temp": 32,
 	"rain": 90,
 	"wind": 0.5,
 	"hum": 83,
@@ -43,7 +43,7 @@
 
 }, {
 	"name": "tapioca",
-	"temp": 35,
+	"temp": 32,
 	"rain": 50,
 	"wind": 0.8,
 	"hum": 82,
