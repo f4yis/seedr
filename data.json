@@ -17,10 +17,10 @@
 	"des": "Orange is a fruit that is cultivated in the short areas"
 }, {
 	"name": "banana",
-	"temp": 32,
-	"rain": 90,
-	"wind": 0.5,
-	"hum": 83,
+	"temp": 31,
+	"rain": 100,
+	"wind": 0.3,
+	"hum": 90,
 	"img": "img/banana.jpg",
 	"des": "Banana can be cultivated in large area,needs a lot of care for getting a good yield"
 }, {
